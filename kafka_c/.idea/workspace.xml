@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1e1542f-db9a-4244-9be8-e844b13160d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../.." />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h1nvh3bXlKIl0iXlSFAC8EHXib" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build kafka_c_beego" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="kafka_c_beego" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/consumer.go" />
+      <package value="kafka_c_beego" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build kafka_c_beego" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="630" y="223" width="400" height="334" key="#Go_Modules" timestamp="1599187709496">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="630" y="223" width="400" height="334" key="#Go_Modules/72.27.1526.719@72.27.1526.719" timestamp="1599187709496" />
+    <state x="617" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599195184277">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="617" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1599195184277" />
+    <state width="1472" height="443" key="GridCell.Tab.0.bottom" timestamp="1599210299446">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state width="1472" height="443" key="GridCell.Tab.0.bottom/72.27.1526.719@72.27.1526.719" timestamp="1599210299446" />
+    <state width="1472" height="443" key="GridCell.Tab.0.center" timestamp="1599210299444">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state width="1472" height="443" key="GridCell.Tab.0.center/72.27.1526.719@72.27.1526.719" timestamp="1599210299444" />
+    <state width="1472" height="443" key="GridCell.Tab.0.left" timestamp="1599210299443">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state width="1472" height="443" key="GridCell.Tab.0.left/72.27.1526.719@72.27.1526.719" timestamp="1599210299443" />
+    <state width="1472" height="443" key="GridCell.Tab.0.right" timestamp="1599210299445">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state width="1472" height="443" key="GridCell.Tab.0.right/72.27.1526.719@72.27.1526.719" timestamp="1599210299445" />
+    <state x="316" y="27" key="SettingsEditor" timestamp="1599187729816">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="316" y="27" key="SettingsEditor/72.27.1526.719@72.27.1526.719" timestamp="1599187729816" />
+  </component>
+</project>
