@@ -19,24 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb18683-ee64-4d5c-8410-7c4a511e58d5" name="Default Changelist" comment="二叉树遍历">
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/charu.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/dui.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/guiping.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/maopao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/quicksort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/xier.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/xuanze.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/662.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/链表/160.go" afterDir="false" />
+    <list default="true" id="acb18683-ee64-4d5c-8410-7c4a511e58d5" name="Default Changelist" comment="代码整理">
+      <change afterPath="$PROJECT_DIR$/dui_sort215.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/洗牌算法.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/104.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/104.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jian24.go" beforeDir="false" afterPath="$PROJECT_DIR$/链表/jian24.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二叉树遍历/bfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/遍历/bfs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二叉树遍历/dfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/遍历/dfs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/dui_sort215.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -71,7 +59,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -93,6 +82,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build algorithm">
+    <configuration name="go build 洗牌算法.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/洗牌算法.go" />
+      <package value="algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build algorithm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,9 +116,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build 洗牌算法.go" />
+      <item itemvalue="Go Build.go build algorithm" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build algorithm" />
+        <item itemvalue="Go Build.go build 洗牌算法.go" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -179,9 +183,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test goland push" />
     <MESSAGE value="二叉树遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树遍历" />
+    <MESSAGE value="代码整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码整理" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -191,47 +197,51 @@
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="630" y="223" width="400" height="334" key="#Go_Modules/72.27.1526.719@72.27.1526.719" timestamp="1602293079528" />
-    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602293115013">
+    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602318938860">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
-    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1526.719@72.27.1526.719" timestamp="1602293115013" />
+    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1526.719@72.27.1526.719" timestamp="1602318938860" />
+    <state x="172" y="127" width="1326" height="519" key="DiffContextDialog" timestamp="1602317543904">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="172" y="127" width="1326" height="519" key="DiffContextDialog/72.27.1526.719@72.27.1526.719" timestamp="1602317543904" />
     <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602293008594">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="272" y="83" key="FileChooserDialogImpl/72.27.1526.713@72.27.1526.713" timestamp="1600608321454" />
     <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1602293008594" />
-    <state width="1472" height="146" key="GridCell.Tab.0.bottom" timestamp="1602317110525">
+    <state width="1472" height="207" key="GridCell.Tab.0.bottom" timestamp="1602319294544">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.bottom/72.27.1526.713@72.27.1526.713" timestamp="1600754775725" />
-    <state width="1472" height="146" key="GridCell.Tab.0.bottom/72.27.1526.719@72.27.1526.719" timestamp="1602317110525" />
+    <state width="1472" height="207" key="GridCell.Tab.0.bottom/72.27.1526.719@72.27.1526.719" timestamp="1602319294544" />
     <state width="1472" height="166" key="GridCell.Tab.0.bottom/72.27.1526.735@72.27.1526.735" timestamp="1601112614197" />
-    <state width="1472" height="146" key="GridCell.Tab.0.center" timestamp="1602317110524">
+    <state width="1472" height="207" key="GridCell.Tab.0.center" timestamp="1602319294542">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.center/72.27.1526.713@72.27.1526.713" timestamp="1600754775724" />
-    <state width="1472" height="146" key="GridCell.Tab.0.center/72.27.1526.719@72.27.1526.719" timestamp="1602317110524" />
+    <state width="1472" height="207" key="GridCell.Tab.0.center/72.27.1526.719@72.27.1526.719" timestamp="1602319294542" />
     <state width="1472" height="166" key="GridCell.Tab.0.center/72.27.1526.735@72.27.1526.735" timestamp="1601112614197" />
-    <state width="1472" height="146" key="GridCell.Tab.0.left" timestamp="1602317110524">
+    <state width="1472" height="207" key="GridCell.Tab.0.left" timestamp="1602319294542">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.left/72.27.1526.713@72.27.1526.713" timestamp="1600754775724" />
-    <state width="1472" height="146" key="GridCell.Tab.0.left/72.27.1526.719@72.27.1526.719" timestamp="1602317110524" />
+    <state width="1472" height="207" key="GridCell.Tab.0.left/72.27.1526.719@72.27.1526.719" timestamp="1602319294542" />
     <state width="1472" height="166" key="GridCell.Tab.0.left/72.27.1526.735@72.27.1526.735" timestamp="1601112614196" />
-    <state width="1472" height="146" key="GridCell.Tab.0.right" timestamp="1602317110524">
+    <state width="1472" height="207" key="GridCell.Tab.0.right" timestamp="1602319294544">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.right/72.27.1526.713@72.27.1526.713" timestamp="1600754775724" />
-    <state width="1472" height="146" key="GridCell.Tab.0.right/72.27.1526.719@72.27.1526.719" timestamp="1602317110524" />
+    <state width="1472" height="207" key="GridCell.Tab.0.right/72.27.1526.719@72.27.1526.719" timestamp="1602319294544" />
     <state width="1472" height="166" key="GridCell.Tab.0.right/72.27.1526.735@72.27.1526.735" timestamp="1601112614197" />
     <state x="261" y="27" key="SettingsEditor" timestamp="1602316855370">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="261" y="27" key="SettingsEditor/72.27.1526.719@72.27.1526.719" timestamp="1602316855370" />
-    <state x="430" y="121" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1602313690040">
+    <state x="163" y="106" width="1026" height="538" key="Vcs.Push.Dialog.v2" timestamp="1602317213636">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
-    <state x="430" y="121" width="800" height="538" key="Vcs.Push.Dialog.v2/72.27.1526.719@72.27.1526.719" timestamp="1602313690040" />
+    <state x="163" y="106" width="1026" height="538" key="Vcs.Push.Dialog.v2/72.27.1526.719@72.27.1526.719" timestamp="1602317213636" />
     <state x="595" y="174" width="469" height="431" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1602293100468">
       <screen x="72" y="27" width="1526" height="719" />
     </state>

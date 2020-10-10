@@ -1,7 +1,6 @@
 package main
 
 import (
-	"algorithm/sort_algorithm"
 	"fmt"
 )
 
@@ -22,12 +21,7 @@ func ScanLine() string { //输入一行字符串，包括空格
 }
 
 func main() {
-	//for {
-	//	input := ScanLine()
-	//	s := strings.Split(input, " ")
-	//	fmt.Println(zhuangzai(s))
-	//}
-	lis := []int{1, 4, 7, 2, 3}
-	sort_algorithm.Guibing(lis)
-	fmt.Println(lis)
+	lis := []int{1, 4, 7, 2, 3, 13, 43, 56, 234, 65, 87, 435}
+	fmt.Println(Shuffle(lis))
+
 }
