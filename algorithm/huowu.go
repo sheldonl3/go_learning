@@ -39,6 +39,8 @@ func zhuangzai(str []string) int {
 	return res
 }
 
+
+
 //func main() {
 //	for {
 //		input := ScanLine()

@@ -27,5 +27,5 @@ func main() {
 	//	fmt.Println(zhuangzai(s))
 	//}
 
-	fmt.Println(maxSubArray([]int{-2,1,-3,4,-1,2,1,-5,4}))
+	fmt.Println(addStrings("1213","456"))
 }

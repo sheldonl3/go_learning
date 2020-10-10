@@ -16,10 +16,14 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1icbuPzzMC9wQWVFIoSVy4xqHPx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithm" />
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -68,21 +72,29 @@
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="630" y="223" width="400" height="334" key="#Go_Modules/72.27.1526.719@72.27.1526.719" timestamp="1602210115855" />
-    <state width="1468" height="160" key="GridCell.Tab.0.bottom" timestamp="1602211608225">
-      <screen x="72" y="27" width="1522" height="715" />
+    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602251853776">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1602251853776" />
+    <state width="1472" height="160" key="GridCell.Tab.0.bottom" timestamp="1602251854904">
+      <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1468" height="160" key="GridCell.Tab.0.bottom/72.27.1522.715@72.27.1522.715" timestamp="1602211608225" />
-    <state width="1468" height="160" key="GridCell.Tab.0.center" timestamp="1602211608223">
-      <screen x="72" y="27" width="1522" height="715" />
+    <state width="1472" height="160" key="GridCell.Tab.0.bottom/72.27.1526.719@72.27.1526.719" timestamp="1602251854904" />
+    <state width="1472" height="160" key="GridCell.Tab.0.center" timestamp="1602251854903">
+      <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1468" height="160" key="GridCell.Tab.0.center/72.27.1522.715@72.27.1522.715" timestamp="1602211608223" />
-    <state width="1468" height="160" key="GridCell.Tab.0.left" timestamp="1602211608222">
-      <screen x="72" y="27" width="1522" height="715" />
+    <state width="1472" height="160" key="GridCell.Tab.0.center/72.27.1526.719@72.27.1526.719" timestamp="1602251854903" />
+    <state width="1472" height="160" key="GridCell.Tab.0.left" timestamp="1602251854903">
+      <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1468" height="160" key="GridCell.Tab.0.left/72.27.1522.715@72.27.1522.715" timestamp="1602211608222" />
-    <state width="1468" height="160" key="GridCell.Tab.0.right" timestamp="1602211608224">
-      <screen x="72" y="27" width="1522" height="715" />
+    <state width="1472" height="160" key="GridCell.Tab.0.left/72.27.1526.719@72.27.1526.719" timestamp="1602251854903" />
+    <state width="1472" height="160" key="GridCell.Tab.0.right" timestamp="1602251854904">
+      <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1468" height="160" key="GridCell.Tab.0.right/72.27.1522.715@72.27.1522.715" timestamp="1602211608224" />
+    <state width="1472" height="160" key="GridCell.Tab.0.right/72.27.1526.719@72.27.1526.719" timestamp="1602251854904" />
   </component>
 </project>
