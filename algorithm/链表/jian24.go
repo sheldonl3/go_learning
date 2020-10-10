@@ -1,11 +1,7 @@
-package main
+package list
 
 //Definition for singly-linked list.
 //反转链表：递归+迭代
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {

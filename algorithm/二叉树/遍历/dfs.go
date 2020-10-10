@@ -1,4 +1,4 @@
-package tree_travel
+package bintree
 
 type TreeNode struct {
 	Val   int

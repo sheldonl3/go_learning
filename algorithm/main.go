@@ -1,6 +1,7 @@
 package main
 
 import (
+	"algorithm/sort_algorithm"
 	"fmt"
 )
 
@@ -26,6 +27,7 @@ func main() {
 	//	s := strings.Split(input, " ")
 	//	fmt.Println(zhuangzai(s))
 	//}
-
-	fmt.Println(addStrings("1213", "56"))
+	lis := []int{1, 4, 7, 2, 3}
+	sort_algorithm.Guibing(lis)
+	fmt.Println(lis)
 }
