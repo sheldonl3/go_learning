@@ -21,7 +21,5 @@ func ScanLine() string { //输入一行字符串，包括空格
 }
 
 func main() {
-	lis := []int{1, 4, 7, 2, 3, 13, 43, 56, 234, 65, 87, 435}
-	fmt.Println(Shuffle(lis))
-
+	fmt.Println(uniquePaths(7, 3))
 }
