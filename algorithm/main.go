@@ -1,6 +1,8 @@
 package main
 
 import (
+	"algorithm/bstree"
+	"algorithm/bstree/travel"
 	"fmt"
 )
 
@@ -16,10 +18,12 @@ func ScanLine() string { //输入一行字符串，包括空格
 			break
 		}
 	}
-
 	return string(b)
 }
 
 func main() {
-	fmt.Println(uniquePaths(7, 3))
+	root := bstree.Build_tree("123#45")
+	res := make([]int, 0)
+	travel.Postorder(&root, &res)
+	fmt.Println(res)
 }

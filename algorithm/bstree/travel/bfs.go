@@ -1,4 +1,4 @@
-package bintree
+package travel
 
 //层序遍历
 func cengxu(p *TreeNode) []int {

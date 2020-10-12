@@ -1,4 +1,4 @@
-package bintree
+package bstree
 
 func widthOfBinaryTree(root *TreeNode) int {
 	if root == nil {

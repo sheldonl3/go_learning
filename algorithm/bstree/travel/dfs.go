@@ -1,4 +1,4 @@
-package bintree
+package travel
 
 type TreeNode struct {
 	Val   int
@@ -25,10 +25,10 @@ func inorder(p *TreeNode, res *[]int) {
 }
 
 //后序遍历
-func postorder(p *TreeNode, res *[]int) {
+func Postorder(p *TreeNode, res *[]int) {
 	if p != nil {
-		postorder(p.Left, res)
-		postorder(p.Right, res)
+		Postorder(p.Left, res)
+		Postorder(p.Right, res)
 		*res = append(*res, p.Val)
 	}
 }

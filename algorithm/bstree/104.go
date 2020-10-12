@@ -1,10 +1,8 @@
-package bintree
+package bstree
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+import "algorithm/bstree/travel"
+
+type TreeNode = travel.TreeNode
 
 type item struct {
 	idx int
