@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="acb18683-ee64-4d5c-8410-7c4a511e58d5" name="Default Changelist" comment="652">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bstree/104.go" beforeDir="false" afterPath="$PROJECT_DIR$/bstree/104.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
@@ -175,11 +177,11 @@
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="172" y="127" width="1326" height="519" key="DiffContextDialog/72.27.1526.719@72.27.1526.719" timestamp="1602317543904" />
-    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602658245502">
+    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603075626304">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="272" y="83" key="FileChooserDialogImpl/72.27.1526.713@72.27.1526.713" timestamp="1600608321454" />
-    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1602658245502" />
+    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1603075626304" />
     <state width="1472" height="125" key="GridCell.Tab.0.bottom" timestamp="1602469416021">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
