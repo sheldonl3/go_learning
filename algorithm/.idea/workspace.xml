@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb18683-ee64-4d5c-8410-7c4a511e58d5" name="Default Changelist" comment="652">
+    <list default="true" id="acb18683-ee64-4d5c-8410-7c4a511e58d5" name="Default Changelist" comment="修改104,是求深度">
+      <change afterPath="$PROJECT_DIR$/字符串压缩.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bstree/104.go" beforeDir="false" afterPath="$PROJECT_DIR$/bstree/104.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +32,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -58,7 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -67,8 +68,8 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,11 +81,21 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <configuration name="go build algorithm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algorithm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="algorithm" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -96,6 +107,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build algorithm" />
+        <item itemvalue="Go Build.go build algorithm" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +176,8 @@
     <MESSAGE value="62.不同路径 二维数组" />
     <MESSAGE value="层序构建二叉树" />
     <MESSAGE value="652" />
-    <option name="LAST_COMMIT_MESSAGE" value="652" />
+    <MESSAGE value="修改104,是求深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改104,是求深度" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -169,62 +187,74 @@
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="630" y="223" width="400" height="334" key="#Go_Modules/72.27.1526.719@72.27.1526.719" timestamp="1602293079528" />
-    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602468902198">
+    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603079929085">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
-    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1526.719@72.27.1526.719" timestamp="1602468902198" />
+    <state x="220" y="27" width="1084" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1526.719@72.27.1526.719" timestamp="1603079929085" />
+    <state x="396" y="27" width="867" height="719" key="CommitChangelistDialog2" timestamp="1603077261680">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="396" y="27" width="867" height="719" key="CommitChangelistDialog2/72.27.1526.719@72.27.1526.719" timestamp="1603077261680" />
     <state x="172" y="127" width="1326" height="519" key="DiffContextDialog" timestamp="1602317543904">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="172" y="127" width="1326" height="519" key="DiffContextDialog/72.27.1526.719@72.27.1526.719" timestamp="1602317543904" />
-    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603075626304">
+    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602658245502">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="272" y="83" key="FileChooserDialogImpl/72.27.1526.713@72.27.1526.713" timestamp="1600608321454" />
-    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1603075626304" />
-    <state width="1472" height="125" key="GridCell.Tab.0.bottom" timestamp="1602469416021">
+    <state x="618" y="144" width="424" height="491" key="FileChooserDialogImpl/72.27.1526.719@72.27.1526.719" timestamp="1602658245502" />
+    <state width="1472" height="124" key="GridCell.Tab.0.bottom" timestamp="1603079942030">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.bottom/72.27.1526.713@72.27.1526.713" timestamp="1600754775725" />
-    <state width="1472" height="125" key="GridCell.Tab.0.bottom/72.27.1526.719@72.27.1526.719" timestamp="1602469416021" />
+    <state width="1472" height="124" key="GridCell.Tab.0.bottom/72.27.1526.719@72.27.1526.719" timestamp="1603079942030" />
     <state width="1472" height="166" key="GridCell.Tab.0.bottom/72.27.1526.735@72.27.1526.735" timestamp="1601112614197" />
-    <state width="1472" height="125" key="GridCell.Tab.0.center" timestamp="1602469416021">
+    <state width="1472" height="124" key="GridCell.Tab.0.center" timestamp="1603079942029">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.center/72.27.1526.713@72.27.1526.713" timestamp="1600754775724" />
-    <state width="1472" height="125" key="GridCell.Tab.0.center/72.27.1526.719@72.27.1526.719" timestamp="1602469416021" />
+    <state width="1472" height="124" key="GridCell.Tab.0.center/72.27.1526.719@72.27.1526.719" timestamp="1603079942029" />
     <state width="1472" height="166" key="GridCell.Tab.0.center/72.27.1526.735@72.27.1526.735" timestamp="1601112614197" />
-    <state width="1472" height="125" key="GridCell.Tab.0.left" timestamp="1602469416021">
+    <state width="1472" height="124" key="GridCell.Tab.0.left" timestamp="1603079942028">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.left/72.27.1526.713@72.27.1526.713" timestamp="1600754775724" />
-    <state width="1472" height="125" key="GridCell.Tab.0.left/72.27.1526.719@72.27.1526.719" timestamp="1602469416021" />
+    <state width="1472" height="124" key="GridCell.Tab.0.left/72.27.1526.719@72.27.1526.719" timestamp="1603079942028" />
     <state width="1472" height="166" key="GridCell.Tab.0.left/72.27.1526.735@72.27.1526.735" timestamp="1601112614196" />
-    <state width="1472" height="125" key="GridCell.Tab.0.right" timestamp="1602469416021">
+    <state width="1472" height="124" key="GridCell.Tab.0.right" timestamp="1603079942029">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state width="1472" height="158" key="GridCell.Tab.0.right/72.27.1526.713@72.27.1526.713" timestamp="1600754775724" />
-    <state width="1472" height="125" key="GridCell.Tab.0.right/72.27.1526.719@72.27.1526.719" timestamp="1602469416021" />
+    <state width="1472" height="124" key="GridCell.Tab.0.right/72.27.1526.719@72.27.1526.719" timestamp="1603079942029" />
     <state width="1472" height="166" key="GridCell.Tab.0.right/72.27.1526.735@72.27.1526.735" timestamp="1601112614197" />
+    <state x="220" y="84" width="1220" height="612" key="MergeDialog" timestamp="1603077494252">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="220" y="84" width="1220" height="612" key="MergeDialog/72.27.1526.719@72.27.1526.719" timestamp="1603077494252" />
+    <state x="465" y="144" width="730" height="492" key="MultipleFileMergeDialog" timestamp="1603077488475">
+      <screen x="72" y="27" width="1526" height="719" />
+    </state>
+    <state x="465" y="144" width="730" height="492" key="MultipleFileMergeDialog/72.27.1526.719@72.27.1526.719" timestamp="1603077488475" />
     <state x="694" y="147" width="281" height="485" key="RollbackChangesDialog" timestamp="1602383839304">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="694" y="147" width="281" height="485" key="RollbackChangesDialog/72.27.1526.719@72.27.1526.719" timestamp="1602383839304" />
-    <state x="261" y="27" key="SettingsEditor" timestamp="1602316855370">
+    <state x="261" y="27" key="SettingsEditor" timestamp="1603079885912">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
-    <state x="261" y="27" key="SettingsEditor/72.27.1526.719@72.27.1526.719" timestamp="1602316855370" />
-    <state x="163" y="106" width="1026" height="538" key="Vcs.Push.Dialog.v2" timestamp="1602657308003">
+    <state x="261" y="27" key="SettingsEditor/72.27.1526.719@72.27.1526.719" timestamp="1603079885912" />
+    <state x="163" y="106" width="1026" height="538" key="Vcs.Push.Dialog.v2" timestamp="1603077551397">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
-    <state x="163" y="106" width="1026" height="538" key="Vcs.Push.Dialog.v2/72.27.1526.719@72.27.1526.719" timestamp="1602657308003" />
+    <state x="163" y="106" width="1026" height="538" key="Vcs.Push.Dialog.v2/72.27.1526.719@72.27.1526.719" timestamp="1603077551397" />
     <state x="595" y="174" width="469" height="431" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1602293100468">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
     <state x="595" y="174" width="469" height="431" key="com.goide.refactor.move.GoMoveDeclarationDialog/72.27.1526.719@72.27.1526.719" timestamp="1602293100468" />
-    <state x="614" y="296" width="431" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602384296281">
+    <state x="614" y="296" width="431" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603077469106">
       <screen x="72" y="27" width="1526" height="719" />
     </state>
-    <state x="614" y="296" width="431" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1526.719@72.27.1526.719" timestamp="1602384296281" />
+    <state x="614" y="296" width="431" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1526.719@72.27.1526.719" timestamp="1603077469106" />
   </component>
 </project>
