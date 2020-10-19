@@ -1,5 +1,10 @@
 package bstree
 
+type item struct {
+	idx int
+	*TreeNode
+}
+
 func widthOfBinaryTree(root *TreeNode) int {
 	if root == nil {
 		return 0
