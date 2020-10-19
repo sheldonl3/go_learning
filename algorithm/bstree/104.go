@@ -9,27 +9,30 @@ type item struct {
 	*TreeNode
 }
 
-func deepOfBinaryTree(root *TreeNode) int {
+func maxDepth(root *TreeNode) int {
+	return help(root, 0)
+}
+
+func help(root *TreeNode, dep int) int {
 	if root == nil {
-		return 0
+		return dep
 	}
-	res := 1
-	queue := []item{{0, root}}
-	for len(queue) > 0 {
-		lenght := queue[len(queue)-1].idx - queue[0].idx + 1
-		if lenght > res {
-			res = lenght
-		}
-		tmp := make([]item, 0) //tmp =  append([]item{}) 切片清除0
-		for _, node := range queue {
-			if node.Left != nil {
-				tmp = append(tmp, item{2 * node.idx, node.Left})
-			}
-			if node.Right != nil {
-				tmp = append(tmp, item{2*node.idx + 1, node.Right})
-			}
-		}
-		queue = tmp
+	if root.Right == nil && root.Left == nil {
+		return dep + 1
 	}
-	return res
+	dep_left, dep_right := dep, dep
+	if root.Left != nil {
+		dep++
+		dep_left = help(root.Left, dep)
+		dep--
+	}
+	if root.Right != nil {
+		dep++
+		dep_right = help(root.Right, dep)
+		dep--
+	}
+	if dep_left > dep_right {
+		return dep_left
+	}
+	return dep_right
 }
